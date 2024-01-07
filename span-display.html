@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos en línea vs en bloque</title>
+    <meta charset="utf-8" />
+    <style>
+      span {
+        border: 1px solid red;
+      }
+
+      span {
+        /* Prueba los valores inline, block e inline-block para la propiedad display.*/
+        /* display: inline; no cambia el estilo en que se visualiza ya que span es un elemento en línea.*/
+        /* display: block; cambia el estilo en que se visualiza a modo bloque tomando todo el ancho del contenedor.*/
+        /* display: inline-block; es un híbrido entre la visualización en línea y bloque, haciendo que el contenido 
+        tome el ancho completo del contenedor y que a su vez no ocupen todo el ancho y se coloquen uno tras otro como 
+        si de un elemento en línea se tratase.*/
+        display: inline-block;
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lorem ipsum</h1>
+
+    <span>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+      voluptatum velit minus commodi, impedit at excepturi porro ipsam repellat
+      ext.
+    </span>
+    <span>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+      voluptatum velit minus commodi, impedit at excepturi porro ipsam repellat
+      ext.
+    </span>
+    <span>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+      voluptatum velit minus commodi, impedit at excepturi porro ipsam repellat
+      ext.
+    </span>
+  </body>
+</html>

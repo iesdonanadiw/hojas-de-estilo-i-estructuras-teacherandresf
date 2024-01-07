@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div como tabla</title>
+    <meta charset="utf-8" />
+    <style>
+      #contenedor {
+        display: table;
+        border: 1px solid black;
+      }
+      .contenidos {
+        display: table-row;
+        border: 1px solid red;
+      }
+      .secundario, 
+      .principal, 
+      .lateral {
+        display: table-cell;
+        border: 1px solid green;
+      }      
+    </style>
+  </head>
+  <body>
+    <div id="contenedor">
+      <div class="contenidos">
+        <div class="secundario">Curabitur rutrum...</div>
+        <div class="principal">Lorem ipsum dolor sit amet...</div>
+        <div class="lateral">Nam erat massa...</div>
+      </div>
+      <div class="contenidos">
+        <div class="secundario">Curabitur rutrum...</div>
+        <div class="principal">Lorem ipsum dolor sit amet...</div>
+        <div class="lateral">Nam erat massa...</div>
+      </div>   
+      <div class="contenidos">
+        <div class="secundario">Curabitur rutrum...</div>
+        <div class="principal">Lorem ipsum dolor sit amet...</div>
+        <div class="lateral">Nam erat massa...</div>
+      </div>          
+    </div>
+  </body>
+</html>

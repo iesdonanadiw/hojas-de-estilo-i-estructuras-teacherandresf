@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float y Clear</title>
+    <meta charset="utf-8" />
+    <style>
+      .naranja {
+        background-color: orange;
+        width: 200px;
+      }
+      .rojo {
+        background-color: red;
+        width: 200px;
+      }
+      .verde {
+        background-color: green;
+      }
+      
+      #wrapper-left .naranja {
+        float: left;
+      }
+      #wrapper-left .rojo {
+        float: left;
+      }
+
+      #wrapper-left .verde {
+        clear: left;
+      }
+      
+      #wrapper-right .naranja {
+        float: right;
+      }
+      #wrapper-right .rojo {
+        float: right;
+      }
+      
+      #wrapper-right .verde {
+        clear: right;
+      }
+
+      #wrapper-both .naranja {
+        float: left;
+      }
+      #wrapper-both .rojo {
+        float: right;
+      }
+      
+      #wrapper-both .verde {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper-left">
+      <p class="naranja">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus sit amet diam. Duis mattis varius dui. Suspendisse eget dolor.</p>
+      <p class="rojo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+      <p class="verde">Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div id="wrapper-right">
+      <p class="naranja">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus sit amet diam. Duis mattis varius dui. Suspendisse eget dolor.</p>
+      <p class="rojo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+      <p class="verde">Lorem ipsum dolor sit amet.</p>
+    </div> 
+    <div id="wrapper-both">
+      <p class="naranja">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus sit amet diam. Duis mattis varius dui. Suspendisse eget dolor.</p>
+      <p class="rojo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+      <p class="verde">Lorem ipsum dolor sit amet.</p>
+    </div>        
+  </body>
+</html>
