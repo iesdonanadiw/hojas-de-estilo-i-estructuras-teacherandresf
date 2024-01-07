@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float y Clear</title>
+    <meta charset="utf-8" /> 
+  </head>
+  <body>
+    <div id="wrapper-left">
+      <p class="naranja">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus sit amet diam. Duis mattis varius dui. Suspendisse eget dolor.</p>
+      <p class="rojo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+      <p class="verde">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div id="wrapper-right">
+      <p class="naranja">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus sit amet diam. Duis mattis varius dui. Suspendisse eget dolor.</p>
+      <p class="rojo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+      <p class="verde">Lorem ipsum dolor sit amet.</p>
+    </div>    
+    <div id="wrapper-both">
+      <p class="naranja">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus sit amet diam. Duis mattis varius dui. Suspendisse eget dolor.</p>
+      <p class="rojo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+      <p class="verde">Lorem ipsum dolor sit amet.</p>
+    </div>        
+  </body>
+</html>
